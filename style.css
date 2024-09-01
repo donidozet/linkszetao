@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: rgb(0, 0, 0);
+  }
+  h2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+   font-weight: 800;
+   line-height: 1;
+   padding: 10px;
+  }
+  #container{
+    width: 100%;
+    max-width: 500px;
+    height: 712px;
+    margin: auto;
+    padding-top: 15px;
+  }
+  #profile{
+    text-align: center;
+  }
+  #profile img{
+    width: 75px;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  ul li a{
+    font-family: "Inter", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 25px;
+    background-color: rgb(20, 20, 20);
+    border: 2px;
+    border-radius: 15px;
+  
+    text-decoration: none;
+    font-weight: 900;
+  
+    transition: all 0.5s;
+    
+  }
+  ul li a:hover{
+    background:rgb(107, 106, 106);
+    border: 1,5px solid white 
+  }
+  
+  #social-links {
+      display: flex;
+      gap: 50px;
+      padding: 25px;
+      font-size: 30px;
+      justify-content: center;
+  }
+  
+  #social-links a {
+      color: rgb(112, 112, 112); /* Cor padrão dos ícones */
+      transition: color 0.3s ease; /* Transição suave ao mudar a cor */
+  }
+  
+  #social-links a:hover {
+      color: white; /* Cor dos ícones ao passar o mouse */
+  }
+  footer{
+    color: gray;
+    padding: 300px 0;
+    text-align: center;
+  }
